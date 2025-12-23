@@ -1,3 +1,4 @@
+import java.util.Arrays;
 class Solution {
     public int nextMaxEvent(int l, int r, int end, int[] sufMax, int[][] events) {
         int max=0;
