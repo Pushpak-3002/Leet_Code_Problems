@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Solution {
+    @SuppressWarnings("unchecked")
     public int maxProfit(int n, int[] present, int[] future, int[][] hierarchy, int budget) {
         List<Integer>[] tree = new List[n];
         for (int i=0;i<n;i++) tree[i]=new ArrayList<>();
